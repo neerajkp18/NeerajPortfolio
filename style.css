@@ -1245,3 +1245,18 @@ body.dark textarea {
 }
 
 /* ================= END OF FILE ================= */
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between photo and name */
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 40px; /* Adjust icon width */
+  height: 40px; /* Set same height for a square base */
+  border-radius: 50%; /* Cuts image into a circle */
+  object-fit: cover; /* Keeps photo proportional without stretching */
+  border: 2px solid #007bff; /* Optional border color matching your theme */
+}
